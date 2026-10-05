@@ -21,8 +21,11 @@ console.log(carrito);
 boton.addEventListener("click", (evento) => {
   
   evento.preventDefault();
-  let total = suma(precios(stock(carrito)));
+  let sumaTotal = suma(precios(stock(carrito)));
   console.log(total);
+
+  total.textContent = `Total: ${sumaTotal}`;
+  detalle.textContent = `Se compraron ${precios(stock(carrito)).length} productos`;
 })
 
 
