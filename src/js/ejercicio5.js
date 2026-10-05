@@ -1,3 +1,5 @@
+import { precios, stock, suma } from "../services/servicesEjercicio5.js";
+
 const carrito = [
 
   { producto: "Notebook", precio: 800000, enStock: true },
@@ -8,4 +10,23 @@ const carrito = [
 
   { producto: "Monitor", precio: 200000, enStock: true }
 
-]; 
+];
+
+const total = document.querySelector("#total");
+const detalle = document.querySelector("#detalle");
+const boton = document.querySelector("#btnTotal");
+
+console.log(carrito);
+
+boton.addEventListener("click", (evento) => {
+  
+  evento.preventDefault();
+  let sumaTotal = suma(precios(stock(carrito)));
+  console.log(total);
+
+  total.textContent = `Total: ${sumaTotal}`;
+  detalle.textContent = `Se compraron ${precios(stock(carrito)).length} productos`;
+})
+
+
+
