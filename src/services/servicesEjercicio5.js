@@ -1,5 +1,7 @@
 export const stock = (carrito) => {
-  console.log(carrito.filter((producto) =>
-    producto.enStock)
-  );
+    return (carrito.filter((p) => p.enStock));
+}
+
+export const precios = (productosStock) => {
+    return productosStock.map((p) => p.precios);
 }
