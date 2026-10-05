@@ -1,3 +1,5 @@
+import { stock } from "../services/servicesEjercicio5.js";
+
 const carrito = [
 
   { producto: "Notebook", precio: 800000, enStock: true },
@@ -10,5 +12,17 @@ const carrito = [
 
 ];
 
-let total = document.querySelector("#total");
-let detalles = document.querySelector("#detalles");
+const total = document.querySelector("#total");
+const detalle = document.querySelector("#detalle");
+const boton = document.querySelector("#btnTotal");
+
+console.log(carrito);
+stock(carrito);
+
+boton.addEventListener("click", (evento) => {
+  evento.preventDefault();
+
+})
+
+
+
