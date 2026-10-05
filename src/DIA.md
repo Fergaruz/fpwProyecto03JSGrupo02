@@ -2,6 +2,12 @@
 
 # Fernando Gabriel Ruiz
 ## Ejercicio 05 Proyecto 03 JS
+## Se definieron las variables 
+## Archivos: modificado ejercicio5.js
+## USO IA: NO
+
+# Fernando Gabriel Ruiz
+## Ejercicio 05 Proyecto 03 JS
 ## Se creó un HTML y un JS con las lineas de código proporcionadas por la materia
 ## Archivos: creados ejercicio1.html, ejercicio1.js, ejercicio1.css servicesEjercicio1
 ## Archivos: creados ejercicio2.html, ejercicio2.js, ejercicio2.css servicesEjercicio2

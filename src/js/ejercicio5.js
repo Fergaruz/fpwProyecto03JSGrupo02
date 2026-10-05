@@ -8,4 +8,7 @@ const carrito = [
 
   { producto: "Monitor", precio: 200000, enStock: true }
 
-]; 
+];
+
+let total = document.querySelector("#total");
+let detalles = document.querySelector("#detalles");
