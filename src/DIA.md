@@ -2,6 +2,12 @@
 
 # Fernando Gabriel Ruiz
 ## Ejercicio 05 Proyecto 03 JS
+## Se creo la funcion que suma los precios del carrito
+## Archivos: modificado ejercicio5.js y serviceEjercicio.js
+## USO IA: NO
+
+# Fernando Gabriel Ruiz
+## Ejercicio 05 Proyecto 03 JS
 ## Se creo la funcion que crea un arreglo de precios de los productos
 ## Archivos: modificado ejercicio5.js y serviceEjercicio.js
 ## USO IA: SI: copiloto y evaluación

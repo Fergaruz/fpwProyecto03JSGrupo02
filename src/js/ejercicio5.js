@@ -1,4 +1,4 @@
-import { precios, stock } from "../services/servicesEjercicio5.js";
+import { precios, stock, suma } from "../services/servicesEjercicio5.js";
 
 const carrito = [
 
@@ -21,8 +21,8 @@ console.log(carrito);
 boton.addEventListener("click", (evento) => {
   
   evento.preventDefault();
-  precios(stock(carrito));
-
+  let total = suma(precios(stock(carrito)));
+  console.log(total);
 })
 
 

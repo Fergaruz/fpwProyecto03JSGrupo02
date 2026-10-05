@@ -3,5 +3,13 @@ export const stock = (carrito) => {
 }
 
 export const precios = (productosStock) => {
-    return productosStock.map((p) => p.precios);
+    return productosStock.map((p) => p.precio);
+}
+
+export const suma = (precios) => {
+    return precios.reduce(nuevaFuncion,0);
+}
+ 
+const nuevaFuncion = (acumulador,p) => {
+    return acumulador = acumulador + p;
 }
