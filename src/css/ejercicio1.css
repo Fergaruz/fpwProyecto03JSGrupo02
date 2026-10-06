@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  gap: 8px;
+}
+
+input {
+  padding: 6px;
+}
+
+button {
+  padding: 8px;
+  cursor: pointer;
+}
+
+#mensajeError {
+  color: red;
+}
+
+table {
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 8px 14px;
+}
+
+th {
+  background-color: #eee;
+}

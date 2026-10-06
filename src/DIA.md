@@ -1,5 +1,21 @@
 
 
+# Nicolas Esteban Alarcon Gonzalez
+## Ejercicio 03 Proyecto 03 JS
+## Se creó un HTML, un CSS, un JS y un service para cargar el nombre, apellido y libreta universitaria de los estudiantes y mostrarlos en una tabla.
+## Los tres inputs se obtienen con querySelector() y sus valores con .value.
+## Al presionar el botón se validan los datos (nombre y apellido solo con letras y espacios, libreta con letras y números, sin campos vacíos y sin libretas repetidas) y se muestra un mensaje de error si algo falla.
+## Si todo es correcto, el estudiante se guarda en un arreglo con push() y se genera la tabla con map(), agregando una fila por cada estudiante. Las validaciones están en servicesEjercicio1.js.
+## Archivos modificados: ejercicio1.css, ejercicio1.js, ejercicio1.html y servicesEjercicio1.js
+## USO IA: Si, como copiloto y evaluación
+
+# Nicolas Esteban Alarcon Gonzalez
+## Ejercicio 03 Proyecto 03 JS
+## Se creó un HTML, un CSS, un JS y un service para calcular los precios con IVA (21%) de los productos de un kiosco.
+## El arreglo productos está definido en servicesEjercicio3.js, junto con una función que usa map() para crear un nuevo arreglo productosConIVA con el nombre y el precioFinal (precio * 1.21) de cada producto, sin modificar el original. Al presionar el botón, ejercicio3.js llama a esa función y muestra el nuevo arreglo en #resultado.
+## Archivos modificados: ejercicio3.css, ejercicio3.js, ejercicio3.html y servicesEjercicio3.js
+## USO IA: Si, como copiloto y evaluación
+
 # Fernando Gabriel Ruiz
 ## Ejercicio 05 Proyecto 03 JS
 ## Se muestra el resultado en la pantalla
