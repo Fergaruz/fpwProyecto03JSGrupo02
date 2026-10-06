@@ -4,22 +4,41 @@
 ## Ejercicio 05 Proyecto 03 JS
 ## Se creó un HTML y un JS con las lineas de código proporcionadas por la materia
 ## Archivos: creados ejercicio1.html, ejercicio1.js, ejercicio1.css servicesEjercicio1
-# Cappiello Andrea Victoria
-## Archivos: creados ejercicio2.html, ejercicio2.js, ejercicio2.css servicesEjercicio2
-## se realizo una pagina web con un boton que cambia el color del fondo
-## Archivos modificados
-## ejercicio2.html
-## ejercicio2.css
-## ejercicio.js
-## se utilizó html para darle la estructura de la pagina y crear el boton
-## se utilizo CSS para aplicar estilos con los colores magenta verde amarillo y negro
-## En javascript use el querySelector() para seleccionar el boton.
-## use addEventListener () para DETECTAR EL EVENTO DEL CLIC
-## Creé una arreglo con diferentes colores
-## utilice math.Random () y Math Floor() para seleccionar el color de forma aleatoria 
-## se utilizo document.body.style background color para cambiar el fondo de pantalla
-##  se utilizo console.log () para mostrar en consola el color seleccionado
-## USO DE IA:SI para acompañamiento de las consignas y reforzar conceptos aprendidos en clase. Siempre siguiendo las recomendaciones del profesor Sosa.Chat gpt
+
+##EJERCICIO 2
+### Cappiello Andrea Victoria 
+**Descripción:**  
+Se realizó una página web con un botón que cambia el color de fondo.
+### Archivos utilizados
+
+- `ejercicio2.html`
+- `ejercicio2.css`
+- `ejercicio2.js`
+- `servicesEjercicio2.js`
+
+### Desarrollo
+
+Se utilizó HTML para crear la estructura de la página y el botón.
+
+Se utilizó CSS para aplicar estilos con una paleta de colores magenta, verde, amarillo y negro.
+
+En JavaScript se utilizó `querySelector()` para seleccionar el botón.
+
+Se utilizó `addEventListener()` para detectar el evento `click`.
+
+Se creó un arreglo con diferentes colores y frases asociadas.
+
+Se utilizaron `Math.random()` y `Math.floor()` para seleccionar una opción de forma aleatoria.
+
+Se utilizó `document.body.style.backgroundColor` para cambiar el color de fondo.
+
+Se utilizó `console.log()` para mostrar en consola el color seleccionado.
+
+
+## USO DE IA: ** SÍ**
+Se utilizó inteligencia artificial como herramienta de acompañamiento para comprender las consignas, reforzar conceptos vistos en clase y organizar la solución.La IA USADA FUE ChatGPT con GPT-5.6 Sol.
+
+El código visado y analizado para comprender el funcionamiento de cada parte, siguiendo las recomendaciones del profesor.
 
 
 ## Archivos: creados ejercicio3.html, ejercicio3.js, ejercicio3.css servicesEjercicio3
