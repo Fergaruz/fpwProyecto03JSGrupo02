@@ -1,4 +1,7 @@
-
+#Leandro Rodríguez Asteti
+##Ejercicio 04 Proyecto 03 JS
+#Corrección, finalización del proyecto y agregado el diseño en css
+#USO IA: SI: Como evaluación
 
 # Fernando Gabriel Ruiz
 ## Ejercicio 05 Proyecto 03 JS

@@ -1,7 +1,7 @@
 //DECLARACIÓN DE VARIABLES
-const filtroGenero= document.getElementById("filtroGenero")
-const botonFiltrar=document.getElementById("btnFiltrar")
-const lista=document.getElementById("listaPeliculas")
+const filtroGenero = document.querySelector("#filtroGenero");
+const botonFiltrar = document.querySelector("#btnFiltrar");
+const lista = document.querySelector("#listaPeliculas");
 const peliculas = [
     { titulo: "Rápidos y Furiosos", genero: "Acción", puntaje: 8 },
     { titulo: "Son como niños", genero: "Comedia", puntaje: 6 },
